@@ -28,6 +28,6 @@ jobs:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
       - run: yarn
-      - run: yarn publish
+      - run: yarn publish --access restricted
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
