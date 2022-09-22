@@ -7,9 +7,12 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test": "exit(0)"
+    "test": "exit 0"
   },
   "dependencies": {
     "fetch": "^1.1.0"
+  },
+  "publishConfig": {
+    "@0x74616e67:registry": "https://npm.pkg.github.com"
   }
 }
