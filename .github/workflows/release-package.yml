@@ -1,8 +1,9 @@
-name: Ding Package
+name: Publish Package
 
 on:
-  release:
-    types: [created]
+  push:
+    branches:
+      - "main"
 
 jobs:
   build:
